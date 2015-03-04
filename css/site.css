@@ -1,0 +1,188 @@
+/* HAMBURGER MENU */
+
+#sidebar-toggler {
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  top: 63px;
+  transition: width 0.3s ease 0s, transform 0.5s ease 0s;
+  white-space: nowrap;
+  width: 43px;
+}
+
+#sidebar-toggler .text {
+  left: 40px;
+  opacity: 0;
+  position: absolute;
+  top: auto;
+  transition: opacity 0.3s ease 0.3s;
+  white-space: nowrap;
+}
+
+#sidebar-toggler:hover {
+  width: 102px;
+}
+
+#sidebar-toggler:hover .text {
+  opacity: 1;
+}
+
+
+/* HEADER MENU */
+
+#sidebar-toggler-mobile {
+  display: none;
+}
+
+
+/* MAIN */
+
+#main-container {
+    margin-top: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 0;
+}
+
+#main-content,
+#main-content-outline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#main-content {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
+  padding-top: 20px;
+  z-index: 1;
+  width: 70%;
+}
+
+#main-content-outline {
+  padding-top: 50px;
+  width: 30%;
+}
+
+/* MASTHEAD */
+
+#masthead {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  min-height: 185px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  position: relative;
+  z-index: 2;
+}
+
+#masthead h1 {
+    margin-bottom: 0;
+}
+
+
+/* CONTENT */
+
+pre .code {
+    display: block;
+    font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0;
+    max-height: 610px;
+    padding: 0;
+}
+
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width : 767px) {
+
+  /* HAMBURGER MENU */
+
+  #sidebar-toggler {
+    display: none;
+  }
+
+  /* HEADER MENU */
+
+  #sidebar-toggler-mobile {
+    display: inline-block;
+  }
+
+  /* MAIN */
+
+  #main-container {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  #main-content {
+      width: 100%;
+  }
+
+  #main-content-outline {
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* MAIN */
+
+  #main-content {
+      width: 70%;
+  }
+
+  #main-content-outline {
+      width: 30%;
+      display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* MAIN */
+
+  #main-container {
+    padding-left: 4em;
+    padding-right: 4em;    
+  }
+
+  #main-content {
+      width: 70%;
+  }
+
+  #main-content-outline {
+      width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+  /* MAIN */
+
+  #main-container {
+    padding-left: 8%;
+    padding-right: 8%;    
+  }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+  /* MAIN */
+
+  #main-container {
+    padding-left: 15%;
+    padding-right: 15%;    
+  }
+
+}
