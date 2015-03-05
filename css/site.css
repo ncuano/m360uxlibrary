@@ -4,7 +4,7 @@
   height: auto;
   overflow: hidden;
   position: fixed;
-  top: 63px;
+  top: 72px;
   transition: width 0.3s ease 0s, transform 0.5s ease 0s;
   white-space: nowrap;
   width: 43px;
@@ -34,6 +34,24 @@
   display: none;
 }
 
+
+/* SIDEBAR */
+
+#toc .branding {
+    height: 72px !important;
+    padding-top: 18px;
+}
+
+#toc .branding .logo.image {
+    margin-left: 9px;
+    margin-right: 9px;
+    width: 35px;
+}
+
+#toc .branding span {
+  vertical-align: middle;
+  padding-top: 3px;
+}
 
 /* MAIN */
 
