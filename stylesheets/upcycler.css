@@ -1,0 +1,45 @@
+/* OVERRIDES ALL STYLESHEETS */
+
+
+/* SIDEBAR TABLE OF CONTENTS */
+
+#example #toc .branding {
+    height: 96px !important;
+    padding-top: 20px;
+}
+
+#example #toc .branding span {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+#example #toc .logo.image {
+    width: 54px;
+}
+
+
+/* SIDEBAR TOGGLER */
+
+#example #sidebar-toggler {
+    top: 96px;
+}
+
+
+/* HEADER MAIN MENU */
+
+#example #main-menu {
+    letter-spacing: 1px;
+}
+
+
+/* MASTHEAD */
+
+#example #masthead {
+    padding-top: 92px;
+}
+
+#example #masthead .tabular.menu {
+    margin-top: 54px;
+}
