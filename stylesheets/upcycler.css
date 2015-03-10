@@ -19,7 +19,8 @@
 
 /* TOP HEADER MAIN MENU */
 
-#example #main-menu {
+#example #main-menu,
+#example #m360-upcycler-footer {
     letter-spacing: 1px;
 }
 
@@ -30,6 +31,52 @@
     padding-top: 92px;
 }
 
+#example #masthead .header {
+    line-height: 1.25em;
+}
+
 #example #masthead .tabular.menu {
     margin-top: 54px;
+}
+
+
+/* FOOTER */
+
+#example .footer p i,
+#example .footer .list i {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+#example .footer p,
+#example .footer p a,
+#example .footer .list,
+#example .footer .ui.bulleted.list .list > .item::before,
+#example .footer .ui.bulleted.list > .item::before,
+#example .footer ul.ui.list li::before {
+    color: #FFFFFF;    
+}
+
+#example .footer p a:hover,
+#example .ui.inverted.list .list > a.item:hover,
+#example .ui.inverted.list > a.item:hover {
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+#example #magnet-360-footer {
+    background-color: #006892;
+}
+
+#example #magnet-360-footer .ui.steps .step {
+    vertical-align: text-top;
+}
+
+#example #magnet-360-footer .ui.steps .step .title,
+#example #magnet-360-footer .ui.steps .step .description {
+    color: #006892;
+}
+
+#example #m360-upcycler-footer {
+    padding: 24px;
 }
