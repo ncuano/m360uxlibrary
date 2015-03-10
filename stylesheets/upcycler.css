@@ -4,19 +4,9 @@
 /* SIDEBAR TABLE OF CONTENTS */
 
 #example #toc .branding {
-    height: 96px !important;
-    padding-top: 20px;
-}
-
-#example #toc .branding span {
-    font-size: 1.5rem;
+    font-weight: 900;
+    height: 36px !important;
     letter-spacing: 1px;
-    vertical-align: middle;
-    padding-top: 5px;
-}
-
-#example #toc .logo.image {
-    width: 54px;
 }
 
 
@@ -27,7 +17,7 @@
 }
 
 
-/* HEADER MAIN MENU */
+/* TOP HEADER MAIN MENU */
 
 #example #main-menu {
     letter-spacing: 1px;
