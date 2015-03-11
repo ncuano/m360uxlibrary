@@ -1,6 +1,13 @@
 /* OVERRIDES ALL STYLESHEETS */
 
 
+/* GLOBAL */
+
+span.strike {
+    text-decoration: line-through;    
+}
+
+
 /* SIDEBAR TABLE OF CONTENTS */
 
 #example #toc .branding {
