@@ -37,7 +37,7 @@ Nope, just this project
 **How could this project be used for other things?**<br/>
 For presentation, sharing, and improvement of all other M360 digital products and deliverables, beyond the WYSIWYG-presentation capabilities of Confluence
 
-To be done, once approved as an official open source, M360 CX Project<br/>
+**To be done, once approved as an official open source, M360 CX Project**<br/>
 Prune the head by validating the need for single style or script<br/>
 Create pages using the model; 25+ possibilities for content have been identified in the sidebar, so create and produce according to team prioritization<br/>
 Implement http://learnsemantic.com/guide/expert.html as needed
