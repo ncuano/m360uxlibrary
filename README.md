@@ -1,5 +1,5 @@
 **URL to view and evaluate this rapid prototype, through Raw Git's CDN**<br/>
-https://cdn.rawgit.com/ncuano/m360uxlibrary/master/model-interior.html
+https://rawgit.com/ncuano/m360uxlibrary/master/model-interior.html
 
 
 **Why this project was created**<br/>
