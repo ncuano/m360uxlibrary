@@ -1,5 +1,3 @@
-READ ME
-
 **URL to view and evaluate this rapid prototype, through Raw Git's CDN**<br/>
 https://cdn.rawgit.com/ncuano/m360uxlibrary/master/model-interior.html
 
@@ -13,7 +11,7 @@ To better share and improve M360 source code (HTML, CSS, JS) in native format, w
 3) Save Page As "Web page, complete", as "model.html"<br/>
 4) Change Sidebar, Menu, Masthead, and Footer<br/>
 5) Host on Github and Add Collaborators<br/>
-6) Apply some branding; a driving philosophy
+6) Embed branding and driving philosophy
 
 **Restrictions on creation**<br/>
 1) Only HTML, CSS, JS and Github<br/>
