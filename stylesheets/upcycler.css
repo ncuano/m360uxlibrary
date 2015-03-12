@@ -34,15 +34,39 @@ span.strike {
 /* MASTHEAD */
 
 #example #masthead {
-    padding-top: 92px;
+    padding-top: 101px;
+}
+
+#example #masthead .introduction .content {
+    padding-left: 1.25rem;
 }
 
 #example #masthead .header {
-    line-height: 1.25em;
+    line-height: 1.185em;
+}
+
+#example #masthead .sub.header {
+    line-height: 1.185em;
+    padding-top: 9px;
 }
 
 #example #masthead .tabular.menu {
-    margin-top: 54px;
+    margin-top: 72px;
+}
+
+#example #masthead #logo-m360-upcycler {
+    background: -moz-linear-gradient(top, rgba(170,170,170,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(170,170,170,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(170,170,170,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(170,170,170,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(170,170,170,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(170,170,170,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    border-radius: 3px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-shadow: 2px 2px #AAAAAA;
+    vertical-align: top;
 }
 
 
