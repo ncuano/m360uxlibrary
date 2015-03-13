@@ -10,7 +10,7 @@ especially source code (HTML, CSS, JS) in native format, with version control
 1) Ignore http://learnsemantic.com/guide/expert.html<br/>
 2) Browse http://semantic-ui.com/kitchen-sink.html<br/>
 3) Save Page As "Web page, complete", as "model.html"<br/>
-4) Prune the Head by deleting code irrelevant for our use
+4) Prune the Head by deleting code irrelevant for our use<br/>
 5) Write and Design Sidebar, Menu, Masthead, and Footer<br/>
 6) Version Control with Github and Add Collaborators<br/>
 7) Create and Embed Branding and Driving Philosophy
